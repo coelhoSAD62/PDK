@@ -6,3 +6,6 @@ este kit foi criado com base em minhas próprias experiências e dificuldades, p
 - Maior chance de sucesso durante desenvolvimento
 ----
 by: Vr. Oliveira
+
+# IMPORTANTE
+Por favor tenha em mente que este arquivo está sujeito a modificações posteriores!

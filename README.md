@@ -19,6 +19,7 @@ O objetivo do projeto é reduzir código repetitivo e acelerar a criação de pr
 ### Model
 
 A pasta "Model" é o coração do projeto, contendo módulos que funcionam para diferentes áreas de um desenvolvimento com pygame.
+
 Dentre estes temos os principais módulos:
 - INTERNAL
 - LOGIC

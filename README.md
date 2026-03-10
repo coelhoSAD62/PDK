@@ -16,36 +16,18 @@ O objetivo do projeto é reduzir código repetitivo e acelerar a criação de pr
 - Sistema simplificado de loop de jogo
 - Organização modular
 
-## Estrutura do projeto
+### Model
 
-PDK/
-├─ model/
-│  ├─ CAMERA/
-│  │  ├─ __init__.py
-│  │  └─ CAMERA.py
-│  ├─ IA/
-│  │  ├─ __init__.py
-│  │  └─ IA.py
-│  ├─ INTERNAL/
-│  │  ├─ __init__.py
-│  │  └─ CONTAINER.py
-│  ├─ LOGICA/
-│  │  ├─ __init__.py
-│  │  ├─ HITBOX.py
-│  │  └─ MOUSE.py
-│  ├─ UI/
-│  │  ├─ __init__.py
-│  │  ├─ PAINEL.py
-│  │  └─ TEXTBOX.py
-│  ├─ VETORES/
-│  │  ├─ __init__.py
-│  │  ├─ VETOR2D.py
-│  │  └─ WAYPOINT2D.py
-│  ├─ __init__.py
-│  └─ locals.py
-├─ __init__.py
-├─ cleaner.py
-└─ LICENSE.txt
+A pasta "Model" é o coração do projeto, contendo módulos que funcionam para diferentes áreas de um desenvolvimento com pygame.
+Dentre estes temos os principais módulos:
+- INTERNAL
+- LOGIC
+- UI
+
+Estes grupos fornecem todas as funcionalidades que seus nomes auto descrevem, sendo possivel focar em um só grupo sem que tudo quebre ao mexer com outro.
+
+Cada grupo é independente do outro, sendo possível ter jogos diretamente no terminal com o grupo "LOGIC" ou imagens estáticas com o grupo "UI";
+no entanto, peço que não mexa no grupo internal a menos que tenha certeza de que sabe oque esta fazendo, pois este grupo requer conhecimentos um pouco mais avançados sobre POO e Modularização.
 
 ## Exemplo simples
 
